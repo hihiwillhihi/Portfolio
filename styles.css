@@ -3,3 +3,7 @@ h1 {
   color:rgb(210, 210, 210);
   font-size: 60px;
 }
+div {
+  width: 30%;
+  visibility: hidden;
+}
