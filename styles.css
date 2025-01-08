@@ -3,7 +3,14 @@ h1 {
   color:rgb(210, 210, 210);
   font-size: 60px;
 }
+
 div {
   width: 30%;
   visibility: hidden;
+}
+
+body {
+    font-family: "Noto Sans Newa", serif;
+    background-image: url('aircraft-5611528.jpg');
+    background-repeat: no-repeat; background-size:100%;
 }
