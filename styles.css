@@ -4,12 +4,12 @@ h1 {
   font-size: 60px;
 }
 
-h2Div {
+.h2Div {
   width:150px;
   margin:auto;
 }
 
-pDiv {
+.pDiv {
   width:300px;
   margin:auto;
 }
