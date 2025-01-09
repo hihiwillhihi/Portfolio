@@ -6,12 +6,12 @@ h1 {
 
 .h2Div {
   width:150px;
-  margin:auto;
+  text-align: center;
 }
 
 .pDiv {
   width:300px;
-  margin:auto;
+  text-align: center;
 }
 
 body {
