@@ -6,18 +6,19 @@ h1 {
 
 .h2Div {
   width:150px;
-  text-align: center;
+  margin:auto;
 }
 
 .pDiv {
   width:300px;
-  text-align: center;
+  margin:auto;
 }
 
 body {
     font-family: "Noto Sans Newa", serif;
     background-image: url('aircraft-5611528.jpg');
-    background-repeat: no-repeat; background-size:100%;
+    background-repeat: no-repeat;
+    background-size:100%;
 }
 
 h2 {
