@@ -24,6 +24,7 @@ body {
   background-image: url('aircraft-5611528.jpg');
   background-repeat: no-repeat;
   background-size: 100%;
+  margin: 0; /* Remove default margin */
 }
 
 h2, h3, p {
@@ -34,8 +35,9 @@ h2, h3, p {
 .center-container {
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 100vh; /* Full viewport height for vertical centering */
+  align-items: flex-start; /* Align to top */
+  padding-top: 20px; /* Small gap from the title */
+  height: auto; /* Shrinks to fit content */
 }
 
 .frosted-glass {
@@ -48,13 +50,23 @@ h2, h3, p {
   -webkit-backdrop-filter: blur(10px); /* For Safari */
   text-align: justify; /* For consistent text alignment */
   color: rgb(0, 0, 0); /* Darker text color for contrast */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align items to the top */
+  align-items: center;
 }
 
 .frosted-glass img {
-  float: left;
+  margin-top: 15px;
   margin-right: 15px;
   margin-bottom: 10px;
   max-width: 150px;
   height: auto;
   border-radius: 5px;
+}
+
+.frosted-glass h3 {
+  margin-top: 0; /* Remove extra margin from the top */
+  font-size: 1.5rem;
+  font-weight: bold;
 }
